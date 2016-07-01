@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>DexcomPD attribute table</title>
+<link rel=stylesheet type="text/css" href="attr.css" />
+</head>
+
+<body>
+<h1>DexcomPD attribute table</h1><h2>TI Base UUID: F000<b>XXXX</b>-0451-4000-B000-000000000000. 128 bit UUIDs are typed '<b>bold blue</b>'</h2><table><tbody><tr><th>Handle<br />(hex)</th><th>Handle<br />(dec)</th><th>Type<br />(hex)</th><th>Type (text)</th><th>Hex value</th><th>GATT Server<br />Permissions</th><th>Description/Value (text)</th></tr>
+<tr class="service"><td>0x1</td><td>1</td><td class="short">0x2800</td><td>GATT Primary Service Declaration</td><td>0x1800</td><td>R</td><td>Generic Access Service</td></tr>
+<tr class="char"><td>0x2</td><td>2</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>0A:03:00:00:2A</td><td>R</td><td>Device Name</td></tr>
+<tr class="data"><td>0x3</td><td>3</td><td class="short">0x2A00</td><td>Device Name</td><td></td><td>RW</td><td></td></tr>
+<tr class="char"><td>0x4</td><td>4</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>02:05:00:01:2A</td><td>R</td><td>Appearance</td></tr>
+<tr class="data"><td>0x5</td><td>5</td><td class="short">0x2A01</td><td>Appearance</td><td></td><td>R</td><td></td></tr>
+<tr class="char"><td>0x6</td><td>6</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>02:07:00:04:2A</td><td>R</td><td>Peripheral Preferred Connection Parameters</td></tr>
+<tr class="data"><td>0x7</td><td>7</td><td class="short">0x2A04</td><td>Peripheral Preferred Connection Parameters</td><td></td><td>R</td><td></td></tr>
+<tr class="service"><td>0x8</td><td>8</td><td class="short">0x2800</td><td>GATT Primary Service Declaration</td><td>0x1801</td><td>R</td><td>Generic Attribute Service</td></tr>
+<tr class="char"><td>0x9</td><td>9</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>20:0A:00:05:2A</td><td>R</td><td>Service Changed</td></tr>
+<tr class="data"><td>0xA</td><td>10</td><td class="short">0x2A05</td><td>Service Changed</td><td></td><td>I</td><td></td></tr>
+<tr class="data"><td>0xB</td><td>11</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="service"><td>0xC</td><td>12</td><td class="short">0x2800</td><td>GATT Primary Service Declaration</td><td>0x180A</td><td>R</td><td>Device Information Service</td></tr>
+<tr class="char"><td>0xD</td><td>13</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>02:0E:00:29:2A</td><td>R</td><td>Manufacturer Name String</td></tr>
+<tr class="data"><td>0xE</td><td>14</td><td class="short">0x2A29</td><td>Manufacturer Name String</td><td></td><td>R</td><td></td></tr>
+<tr class="service"><td>0xF</td><td>15</td><td class="short">0x2800</td><td>GATT Primary Service Declaration</td><td>F8083532-849E-531C-C594-30F1F86A4EA5</td><td>R</td><td></td></tr>
+<tr class="char"><td>0x10</td><td>16</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>12:11:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:33:35:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x11</td><td>17</td><td class="long">0x3533</td><td></td><td></td><td>RN</td><td></td></tr>
+<tr class="data"><td>0x12</td><td>18</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="char"><td>0x13</td><td>19</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>28:14:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:34:35:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x14</td><td>20</td><td class="long">0x3534</td><td></td><td></td><td>WI</td><td></td></tr>
+<tr class="data"><td>0x15</td><td>21</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="char"><td>0x16</td><td>22</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>2A:17:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:35:35:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x17</td><td>23</td><td class="long">0x3535</td><td></td><td></td><td>RWI</td><td></td></tr>
+<tr class="data"><td>0x18</td><td>24</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="char"><td>0x19</td><td>25</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>1A:1A:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:36:35:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x1A</td><td>26</td><td class="long">0x3536</td><td></td><td></td><td>RWN</td><td></td></tr>
+<tr class="data"><td>0x1B</td><td>27</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="service"><td>0x1C</td><td>28</td><td class="short">0x2800</td><td>GATT Primary Service Declaration</td><td>F8084532-849E-531C-C594-30F1F86A4EA5</td><td>R</td><td></td></tr>
+<tr class="char"><td>0x1D</td><td>29</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>28:1E:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:33:45:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x1E</td><td>30</td><td class="long">0x4533</td><td></td><td></td><td>WI</td><td></td></tr>
+<tr class="data"><td>0x1F</td><td>31</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+<tr class="char"><td>0x20</td><td>32</td><td class="short">0x2803</td><td>GATT Characteristic Declaration</td><td>1A:21:00:A5:4E:6A:F8:F1:30:94:C5:1C:53:9E:84:34:45:08:F8</td><td>R</td><td></td></tr>
+<tr class="data"><td>0x21</td><td>33</td><td class="long">0x4534</td><td></td><td></td><td>RWN</td><td></td></tr>
+<tr class="data"><td>0x22</td><td>34</td><td class="short">0x2902</td><td>Client Characteristic Configuration</td><td></td><td>RW</td><td>Write "01:00" to enable notifications, "00:00" to disable</td></tr>
+</body></html>
